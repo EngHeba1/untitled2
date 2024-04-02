@@ -20,6 +20,7 @@ class ToDo extends StatelessWidget {
         builder: (context, child) {
           return  MaterialApp(
             debugShowCheckedModeBanner: false,
+            theme: ThemeData(scaffoldBackgroundColor: Colors.white70),
             home: Notes(),
           );
         });
