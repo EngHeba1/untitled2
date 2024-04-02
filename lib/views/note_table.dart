@@ -35,7 +35,8 @@ class Notes extends StatelessWidget {
               //         color: Colors.cyan,
               //         borderRadius: BorderRadius.all(Radius.circular(20))),
               //     child: Text("Tasks")),
-              rowsPerPage: 5,
+              rowsPerPage: 10,
+              dataRowHeight: 50,
               columns: [
                 DataColumn(
                     label: SizedBox(
@@ -45,7 +46,7 @@ class Notes extends StatelessWidget {
                           color: Colors.blue,
                           child: Center(
                               child: Text(
-                            "Task ID",
+                            "Task Num",
                             style: GoogleFonts.poppins(
                                 fontSize: 15.sp,
                                 color: Colors.white,
